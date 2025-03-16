@@ -8,9 +8,9 @@
       "type": "node",
       "request": "launch",
       "name": "Launch Program",
-      "args": ["${workspaceRoot}/script/index.ts"],
+      "args": ["${workspaceFolder}/script/index.ts"],
       "runtimeArgs": ["-r", "ts-node/register"],
-      "cwd": "${workspaceRoot}/script",
+      "cwd": "${workspaceFolder}/script",
 			"protocol": "inspector",
 			"internalConsoleOptions": "openOnSessionStart",
 			"env": {
